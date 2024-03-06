@@ -1,0 +1,134 @@
+object frmConfiguracoes: TfrmConfiguracoes
+  Left = 251
+  Top = 182
+  Width = 449
+  Height = 205
+  Caption = 'Configura'#231#245'es'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlProxy: TPanel
+    Left = 15
+    Top = 11
+    Width = 412
+    Height = 118
+    BevelInner = bvLowered
+    BevelOuter = bvNone
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 12
+      Top = 31
+      Width = 39
+      Height = 13
+      Caption = 'Usu'#225'rio:'
+    end
+    object Label2: TLabel
+      Left = 137
+      Top = 31
+      Width = 34
+      Height = 13
+      Caption = 'Senha:'
+      Transparent = True
+    end
+    object Label3: TLabel
+      Left = 12
+      Top = 77
+      Width = 192
+      Height = 13
+      Caption = 'Nome do Arquivo Padr'#227'o para as Bases:'
+    end
+    object edtSenha: TEdit
+      Left = 137
+      Top = 46
+      Width = 100
+      Height = 19
+      Ctl3D = False
+      ParentCtl3D = False
+      PasswordChar = '*'
+      TabOrder = 2
+    end
+    object edtUsuario: TEdit
+      Left = 12
+      Top = 46
+      Width = 121
+      Height = 19
+      Ctl3D = False
+      ParentCtl3D = False
+      TabOrder = 1
+    end
+    object Panel7: TPanel
+      Left = 1
+      Top = 1
+      Width = 410
+      Height = 17
+      Align = alTop
+      Alignment = taLeftJustify
+      BevelOuter = bvNone
+      Caption = 'Login padr'#227'o para as bases'
+      Color = 11101228
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindow
+      Font.Height = -11
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+    object edtDefaultDatabaseName: TEdit
+      Left = 12
+      Top = 92
+      Width = 225
+      Height = 19
+      Ctl3D = False
+      ParentCtl3D = False
+      TabOrder = 3
+    end
+  end
+  object BitBtn1: TBitBtn
+    Left = 346
+    Top = 136
+    Width = 80
+    Height = 28
+    Caption = 'Fechar'
+    Default = True
+    TabOrder = 1
+    OnClick = BitBtn1Click
+    Glyph.Data = {
+      6E030000424D6E030000000000002E0100002800000018000000180000000100
+      08000000000040020000110F0000110F00003E0000003E000000A1400000B640
+      0000C0400000C0480000C0500000CA500000CA580000D4580000D4600000E060
+      0000EA600000F4600000F46A0000FF6A00008F3803002A2A2A001C5031001C58
+      3100405038001C603800236038004860380016584000166040001C6040003160
+      4000166A4000236A400073484800985048002A604800116A4800166A48001673
+      48002A6A5000117350001673500023735000117B50007B7B5000FFAB50000B7B
+      5800117B58000B84580011845800A18458000B846000068F60000B8F60006A6A
+      6A0006986A00F4A16A00F4B68F00FFCA8F00EAC0AB00F4C0AB00FFE0B600F4CA
+      C000FFD4C000FFE0D400FF00FF00FFFFFF003C3C3C3C3C3C3C3C3C3C3C3C3C3C
+      3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C
+      3C3C3C3C3C3C3C3C3C3C1C0F0F3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C1C
+      0F0F00000F1C1C1C1C1C1C1C1C1C3C3C3C3C3C3C3C1C0F00000E00010F323232
+      32323232321C3C3C3C3C3C3C1C000000010101010F32323232323030301C3C3C
+      3C3C3C3C1C010101010103030F323030302E2B2A251C3C3C3C3C3C3C1C010303
+      030303030F202A2A2A262324221C3C3C3C3C3C3C1C030303040404030F162324
+      21242020241C3C3C3C3C3C3C1C030404040404060F24201A1813181B1E1C3C3C
+      3C3C3C3C1C040404060628060F10141411141912121C3C3C3C3C3C3C1C060606
+      063538280F1212111515272D331C3C3C3C3C3C3C1C060606060635060F333333
+      33333333331C3C3C3C3C3C3C1C060608080808080F33333333333333331C3C3C
+      3C3C3C3C1C080808080808080F33333B3B3B3A33331C3C3C3C3C3C3C1C080909
+      08080A0A0F363B3B3A39363B331C3C3C3C3C3C3C1C0D0A0A0A0A0A0A0F333437
+      3B393734331C3C3C3C3C3C3C1C060D0D0C0B0A0A0F33333336363633331C3C3C
+      3C3C3C3C3C1D1D060D0A0C0D0F33333333333333331C3C3C3C3C3C3C3C3C3C1D
+      1D060D0D0F3131313131313131313C3C3C3C3C3C3C3C3C3C3C1D1D1D1D3C3C3C
+      3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C
+      3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C
+      3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C3C}
+  end
+end
